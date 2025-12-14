@@ -10,9 +10,11 @@
     "db:studio": "prisma studio",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.36.2",
+    "@prisma/client": "^7.1.0",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1"
