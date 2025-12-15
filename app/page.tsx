@@ -1,5 +1,6 @@
 import AddNewRecord from "@/components/AddNewRecord";
 import Guest from "@/components/Guest";
+import RecordChart from "@/components/RecordChart";
 import {currentUser} from "@clerk/nextjs/server";
 
 export default async  function SleepSync() {
